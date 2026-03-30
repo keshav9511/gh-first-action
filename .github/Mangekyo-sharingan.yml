@@ -1,0 +1,10 @@
+name: second-workflow
+on: workflow_dispatch
+jobs:
+  second-job:
+    runson: ubuntu-latest
+    steps:
+      - name: myname
+        run: echo "My name is keshav Lichade"
+      - name: profession
+        run : echo "I am a devops engineer"
